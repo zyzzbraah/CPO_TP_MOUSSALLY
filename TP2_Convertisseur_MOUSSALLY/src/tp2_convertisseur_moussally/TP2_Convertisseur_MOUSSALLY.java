@@ -42,12 +42,12 @@ public class TP2_Convertisseur_MOUSSALLY {
 	int convUtilisateur = sc.nextInt();
 	double answer;
 	        
-	if (convUtilisateur == 1) {
-	    answer = troisiemesConversions.CelsiusVersKelvin(valeur);
-	    System.out.println(valeur + " degrés Celcius est égal à "+answer+" degrés Kelvin");
+	if (convUtilisateur == 1) { //en fonction du choix de conversion , 6 cas possibles
+	    answer = troisiemesConversions.CelsiusVersKelvin(valeur); //converti lz valeur donnée par lutilisateur
+	    System.out.println(valeur + " degrés Celcius est égal à "+answer+" degrés Kelvin"); //renvoi la valeur converti à lutilisateur
 	}
 	       
-	if (convUtilisateur == 2) {
+	if (convUtilisateur == 2) { //meme chose pour les 6 autres cas 
 	    answer = troisiemesConversions.KelvinVersCelsius(valeur);
 	    System.out.println(valeur + " degrés Kelvin est égal à "+answer+" degrés Celcius");
 	}
