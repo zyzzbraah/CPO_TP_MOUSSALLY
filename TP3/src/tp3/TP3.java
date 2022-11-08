@@ -4,6 +4,8 @@
  */
 package tp3;
 
+
+
 /**
  *
  * @author mouss
@@ -15,6 +17,15 @@ public class TP3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Epee Excalibur = new Epee("Excalibur",7,5);
+        System.out.println(Excalibur);
+        
+        Epee Durandal = new Epee("Durandal",4,7);
+        System.out.println(Durandal);
+        
+        Baton Baton1 = new Baton("Chêne",4,5);
+        Baton Baton2 = new Baton("Charme",5 ,6);
+        System.out.println(Baton1);
     }
     
 }
