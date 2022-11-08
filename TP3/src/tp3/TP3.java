@@ -4,9 +4,7 @@
  */
 package tp3;
 
-import Armes.Epee;
-import Armes.Baton;
-import Armes.Armes;
+import Armes.*;
 import java.util.ArrayList;
 
 
