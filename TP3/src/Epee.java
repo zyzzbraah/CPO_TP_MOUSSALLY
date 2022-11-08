@@ -7,6 +7,12 @@
  *
  * @author mouss
  */
-public class Epee {
+public class Epee extends Armes {
+    int indfin;
+    
+    public Epee(String n,int i, int a) {
+        super(n,i);
+        indfin = a;
+    }
     
 }
