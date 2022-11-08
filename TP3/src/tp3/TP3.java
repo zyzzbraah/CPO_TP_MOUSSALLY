@@ -4,6 +4,8 @@
  */
 package tp3;
 
+import java.util.ArrayList;
+
 
 
 /**
@@ -18,14 +20,24 @@ public class TP3 {
     public static void main(String[] args) {
         // TODO code application logic here
         Epee Excalibur = new Epee("Excalibur",7,5);
-        System.out.println(Excalibur);
+        //System.out.println(Excalibur);
         
         Epee Durandal = new Epee("Durandal",4,7);
-        System.out.println(Durandal);
+        //System.out.println(Durandal);
         
         Baton Baton1 = new Baton("Chêne",4,5);
         Baton Baton2 = new Baton("Charme",5 ,6);
-        System.out.println(Baton1);
+        //System.out.println(Baton1);
+        
+        ArrayList<Armes> Rangement = new ArrayList<Armes>();
+    Rangement.add(Excalibur);
+    Rangement.add(Durandal);
+    Rangement.add(Baton1);
+    Rangement.add(Baton2);
+    
+    System.out.println(Rangement.get(0));
+
+
     }
     
 }
