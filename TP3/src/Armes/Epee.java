@@ -1,7 +1,7 @@
-package tp3;
+package Armes;
 
 
-import tp3.Armes;
+import Armes.Armes;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -12,17 +12,12 @@ import tp3.Armes;
  *
  * @author mouss
  */
-public class Baton extends Armes {
-    int age;
+public class Epee extends Armes {
+    int indfin;
     
-    public Baton(String n, int i, int a) {
-        super(n ,i);
-        if (a>0) {
-            age= a;
-        }else{
-            age= 0;
-        }
-        
+    public Epee(String n,int i, int a) {
+        super(n,i);
+        indfin = a;
     }
     
 }
