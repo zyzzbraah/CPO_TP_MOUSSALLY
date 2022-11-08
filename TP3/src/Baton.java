@@ -7,6 +7,17 @@
  *
  * @author mouss
  */
-public class Baton {
+public class Baton extends Armes {
+    int age;
+    
+    public Baton(String n, int i, int a) {
+        super(n ,i);
+        if (a>0) {
+            age= a;
+        }else{
+            age= 0;
+        }
+        
+    }
     
 }
