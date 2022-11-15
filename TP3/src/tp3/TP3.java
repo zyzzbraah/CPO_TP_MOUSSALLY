@@ -5,6 +5,7 @@
 package tp3;
 
 import Armes.*;
+import Personnages.*;
 import java.util.ArrayList;
 
 
@@ -31,14 +32,35 @@ public class TP3 {
         //System.out.println(Baton1);
         
         ArrayList<Armes> Rangement = new ArrayList<Armes>();
+        
+        Magicien Gandalf = new Magicien ("Gandalf",65 ,true  );
+        System.out.println(Gandalf);   
+        
+        Magicien Garcimore = new Magicien ("Garcimore", 44 ,false);
+        System.out.println(Garcimore);   
+        
+        Guerrier Conan = new Guerrier ("conan", 78, false );
+        System.out.println(Conan);
+        
+        Guerrier Lannister = new Guerrier ("Lannister", 45, true);
+        System.out.println(Lannister);
+        
+        ArrayList<Personnages> Rangement2 = new ArrayList<Personnages>();
+        
     Rangement.add(Excalibur);
     Rangement.add(Durandal);
     Rangement.add(Baton1);
     Rangement.add(Baton2);
     
+    Rangement2.add(Gandalf);
+    Rangement2.add(Garcimore);
+    Rangement2.add(Conan);
+    Rangement2.add(Lannister);
+    
     System.out.println(Rangement.get(0));
+    System.out.println(Rangement2.get(0));
 
-
+    
     }
     
 }

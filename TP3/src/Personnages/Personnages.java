@@ -25,7 +25,11 @@ public class Personnages {
         nom = unNom;
         hp = nbHp;
         
+        
+        
         if (hp<0) hp = 0;
+        
+        
         
     }
     

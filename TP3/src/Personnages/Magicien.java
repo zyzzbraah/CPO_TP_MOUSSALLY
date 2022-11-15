@@ -12,7 +12,7 @@ public class Magicien extends Personnages {
     boolean conf;
 
     public Magicien(String n , int i , boolean a) {
-        super(n , i);
+        super(n,i);
         conf=a;
     }
     
