@@ -30,9 +30,9 @@ public class Personnages {
 
      }
     
-    public void setHp(int hp) {
-        this.hp=hp;
-    }
+    //public void setHp(int hp) {
+    //    this.hp=hp;
+    //}
      
     public Armes getArmePortee() {
 
@@ -49,16 +49,23 @@ public class Personnages {
     }
     
     public Personnages (String unNom, int nbHp) {
-        nom = unNom;
-        hp = nbHp;
-        
-        
-        
-        if (hp<0) hp = 0;
-        
-        
-        
+        this.nom =nom;
+
+        if (hp<0){      
+
+            this.hp = 0; //si la vie est <0, on la fixe a 0
+
+        }else {
+
+            this.hp=hp;
+
+        }
+
     }
+        
+        
+        
+    
     
      @Override
 

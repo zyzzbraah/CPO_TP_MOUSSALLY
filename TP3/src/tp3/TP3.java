@@ -31,7 +31,7 @@ public class TP3 {
         Baton Baton2 = new Baton("Charme",5 ,6);
         //System.out.println(Baton1);
         
-        ArrayList<Armes> Rangement = new ArrayList<Armes>();
+        ArrayList<Armes> Rangement = new ArrayList<>();
         
         Magicien Gandalf = new Magicien ("Gandalf",65 ,true  );
         System.out.println(Gandalf);   
@@ -45,7 +45,7 @@ public class TP3 {
         Guerrier Lannister = new Guerrier ("Lannister", 45, true);
         System.out.println(Lannister);
         
-        ArrayList<Personnages> Rangement2 = new ArrayList<Personnages>();
+        ArrayList<Personnages> Rangement2 = new ArrayList<>();
         
     Rangement.add(Excalibur);
     Rangement.add(Durandal);
