@@ -11,7 +11,7 @@ package tp3;
 public class Personnages {
     String nom;
     int hp;
-    
+     
     public Personnages (String unNom, int nbHp) {
         nom = unNom;
         hp = nbHp;
