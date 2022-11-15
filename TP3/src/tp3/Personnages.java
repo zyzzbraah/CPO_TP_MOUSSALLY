@@ -11,6 +11,15 @@ package tp3;
 public class Personnages {
     String nom;
     int hp;
+    
+    public int getHp() {
+        return hp;
+        
+    }
+    
+    public void setHp(int hp) {
+        this.hp=hp;
+    }
      
     public Personnages (String unNom, int nbHp) {
         nom = unNom;
