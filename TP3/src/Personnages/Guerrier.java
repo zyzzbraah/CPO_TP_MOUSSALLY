@@ -16,5 +16,16 @@ public class Guerrier extends Personnages {
         cheval = a;
     }
     
+    @Override
+    public String toString() {
+        if (cheval == true) {
+        return "Guerrier"+nom+ "("+hp + "points de vie), a cheval";
+        }
+        else {
+            return "Guerrier"+nom+ "("+hp + "points de vie), a pied";
+
+        }
+    }
+    
     
 }

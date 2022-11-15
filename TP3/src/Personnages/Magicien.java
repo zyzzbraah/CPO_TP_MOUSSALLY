@@ -16,4 +16,14 @@ public class Magicien extends Personnages {
         conf=a;
     }
     
+    @Override
+    public String toString() {
+        if (conf == true) {
+        return "Magicien"+nom+ "("+hp + "points de vie), niveau confirme";
+        }
+        else {
+            return "Magicien"+nom+ "("+hp + "points de vie), niveau novice";
+
+        }
+    }
             }
